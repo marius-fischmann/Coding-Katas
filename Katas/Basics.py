@@ -6,12 +6,12 @@ def even_or_odd(number):
 
 # return the goiven number with the digits in descending order
 def descending_order(num):
-    numStr = str(num)
+    num_str = str(num)
     num_str_list = []
     num_int_list = []
     result = ""
-    for i in range(len(numStr)):
-        num_str_list.append(numStr[i])
+    for i in range(len(num_str)):
+        num_str_list.append(num_str[i])
     for i in num_str_list:
         num_int_list.append(int(i))
     num_int_list.sort(reverse=True)
